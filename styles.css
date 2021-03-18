@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  background-color: grey;
+}
+
+.container {
+  display: flex;
+}
+
+.header {
+  display: flex;
+  width: 100vw;
+  align-items: center;
+  margin-top: 2.5vh;
+  padding-left: 5vw;
+  background-color: grey;
+}
+
+.units-switch-container {
+  width: 2em;
+  height: 1em;
+  padding: 0.05em;
+  padding-left: 0.1em;
+  padding-right: 0.1em;
+  background-color: black;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  border-radius: 15px;
+}
+
+.units-switch {
+  width: 1em;
+  height: 1em;
+  background-color: white;
+  border-radius: 15px;
+  transition: transform 200ms;
+}
+
+.units-F {
+  transform: translateX(1em);
+}
+
+.search-container {
+  height: 5vh;
+  width: 20vw;
+  background-color: grey;
+  margin-left: auto;
+  margin-right: 10vw;
+}
+
+#search {
+  height: 5vh;
+  width: 20vw;
+  border: none;
+  padding-left: 2vw;
+  padding-bottom: 0;
+  padding-top: 0;
+  background-color: grey;
+  color: white;
+}
+
+#search::placeholder{
+  color: white;
+}
+
+#search:focus {
+  outline: none;
+}
+
+.main-container {
+  height: 92.5vh;
+  width: 100vw;
+  background-color: grey;
+}
+
+.weather-container {
+  height:50vh;
+  width:50vw;
+  background-color: grey;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.location{
+  width: 40vw;
+  height: 15vh;
+  background-color: grey;
+  color: white;
+}
+
+.now-temp{
+ width: 15vw;
+ height: 15vh;
+ margin-left: 5vw;
+ margin-right: 5vw;
+ background-color: grey;
+ color: white;
+}
+
+.condition{
+  width: 15vw;
+  height: 15vh;
+  margin-right: 5vw;
+  background-color: grey;
+  color: white;
+}
+
+.low-temp{
+  width: 7.5vw;
+  height: 15vh;
+  background-color: grey;
+  color: white;
+}
+
+.hi-temp{
+  width: 7.5vw;
+  height: 15vh;
+  background-color: grey;
+  color: white;
+} 
+
+.sunrise{
+  width: 7.5vw;
+  height: 15vh;
+  margin-left: 5vw;
+  background-color: grey;
+  color: white;
+}
+
+.sunset{
+  width: 7.5vw;
+  height: 15vh;
+  background-color: grey;
+  color: white;
+}
